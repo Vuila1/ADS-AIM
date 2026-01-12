@@ -1,0 +1,22 @@
+# Core AI & Computer Vision
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Screen Capture & Input
+mss>=7.0.0
+pyautogui>=0.9.53
+pynput>=1.7.6
+pywin32>=306
+
+# Utilities
+termcolor>=2.3.0
+colorama>=0.4.6
+Pillow>=10.0.0
+
+# Development Tools
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0

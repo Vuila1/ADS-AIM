@@ -1,0 +1,31 @@
+{
+  "version": "3.0.0",
+  "detection": {
+    "model_path": "lib/models/best.pt",
+    "confidence": 0.45,
+    "iou_threshold": 0.45,
+    "fov": 350,
+    "aim_height": 10,
+    "use_half_precision": true
+  },
+  "performance": {
+    "speed_multiplier": 1.0,
+    "mouse_method": "mouse_event",
+    "lock_threshold": 8,
+    "use_snap_mode": true
+  },
+  "trigger": {
+    "enabled": true,
+    "activation_delay": 0.001,
+    "cooldown": 0.05
+  },
+  "input": {
+    "targeting_scale": 1.0,
+    "require_rmb": true
+  },
+  "visualization": {
+    "show_fps": true,
+    "show_targets": true,
+    "show_status": true
+  }
+}
